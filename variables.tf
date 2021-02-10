@@ -1,1 +1,2 @@
 variable "message" {}
+variable "environment" {}

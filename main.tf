@@ -1,6 +1,6 @@
 resource "kubernetes_pod" "echo" {
   metadata {
-    name = "echo-example"
+    name = "echo-example-${var.environment}"
     labels = {
       App = "echo"
     }
